@@ -5,17 +5,17 @@
     900 - 1200px: Tablet landscape;
     1200 - 1800px: Normal Desktop (Normal Styles);
     1800px - ∞ : Big Desktop
-*/
-/*
+
 $breakpoint argument choices:
 - phone
 - tab-port
 - tab-land
 - big-desktop
 
+ORDEN: Base + Tipografía > Layout general + grid > layout de página > componentes 
+
 1em = 16px
 */
-/* Prueba nro 1 */
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -53,10 +53,10 @@ $breakpoint argument choices:
 
 html {
   font-size: 62.5%; }
-  @media (max-width: 56.26em) {
+  @media (max-width: 75em) {
     html {
       font-size: 50%; } }
-  @media (max-width: 75em) {
+  @media (max-width: 56.26em) {
     html {
       font-size: 50%; } }
   @media (min-width: 112.5em) {
